@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>agile-bpm</artifactId>
+        <groupId>com.dstz</groupId>
+        <version>2.5.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ab-spring-boot-wf-starter</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.dstz</groupId>
+            <artifactId>ab-spring-boot-starter</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dstz</groupId>
+            <artifactId>ab-wf-client</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dstz</groupId>
+            <artifactId>ab-biz-api</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-engine</artifactId>
+            <classifier>AB</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.tinyjee.jgraphx</groupId>
+            <artifactId>jgraphx</artifactId>
+            <version>1.10.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-spring-boot-starter</artifactId>
+            <exclusions>
+                <exclusion>
+                    <artifactId>activiti-spring-identity</artifactId>
+                    <groupId>org.activiti.core.common</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-common</artifactId>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>agile-bpm</artifactId>
+        <groupId>com.dstz</groupId>
+        <version>2.5.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>ab-component</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>ab-component-j2cache</module>
+        <module>ab-component-redis</module>
+        <module>ab-groovy-script-api</module>
+        <module>ab-groovy-script-engine</module>
+        <module>ab-component-upload-api</module>
+        <module>ab-component-upload-engine</module>
+        <module>ab-component-mq-api</module>
+        <module>ab-component-mq-engine</module>
+        <module>ab-component-pubsub-api</module>
+        <module>ab-component-pubsub-core</module>
+        <module>ab-component-msg-api</module>
+        <module>ab-component-msg-engine</module>
+    </modules>
+
+    <properties>
+        <spring-data-redis>2.6.1</spring-data-redis>
+    </properties>
+
+    <dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-redis</artifactId>
+            <version>${spring-data-redis}</version>
+        </dependency>
+    </dependencies>
+    </dependencyManagement>
+</project>
