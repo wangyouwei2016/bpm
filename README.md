@@ -23,6 +23,7 @@ q群3：108698205，如果进了技术群，请先看群公告再问问题，不
 ## 起步
 
 1. 下载 `agile-bpm-basic`项目,以 maven 项目引入工程 并 根目录下 执行 `mvn clean install -DskipTests`
+(请注意，请使用默认setting配置，否则无法下载 一些第三方特殊包)
 
 2. 执行数据库脚本创建数据库 `/doc/sql/mysql/full/agilebpm_full.sql`
 
