@@ -46,7 +46,7 @@
         <groovy.version>3.0.9</groovy.version>
         <hutool.version>5.7.19</hutool.version>
         <mybatis-plus.version>3.5.1</mybatis-plus.version>
-        <guava.version>31.0.1-jre</guava.version>
+        <guava.version>32.0.0-jre</guava.version>
         <jsr206-api.version>1.0</jsr206-api.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
