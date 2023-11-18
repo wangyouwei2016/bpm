@@ -59,7 +59,7 @@
         <commons-codec.version>20041127.091804</commons-codec.version>
         <pingyin.version>2.5.0</pingyin.version>
         <activiti.version>7.1.0.M6</activiti.version>
-        <commons-io.version>2.4</commons-io.version>
+        <commons-io.version>2.7</commons-io.version>
         <alibaba.druid.version>1.2.6</alibaba.druid.version>
         <poi.version>5.0.0</poi.version>
         <dom4j.version>1.6.1</dom4j.version>
